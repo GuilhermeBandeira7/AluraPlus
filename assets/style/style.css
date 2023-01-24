@@ -15,7 +15,7 @@ body {
   font-weight: 400;
 }
 
-/* the '*' selector gets apply changes to all html elements*/
+/* the '*' selector apply changes to all html elements*/
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +25,8 @@ body {
   background-image: url("../Img/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -40,6 +42,7 @@ body {
   color: var(--branco-principal);
   display: block;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -55,4 +58,44 @@ body {
 .container__titulo {
   font-size: 28px;
   font-weight: 700s;
+}
+
+.cotainer__imagem {
+  /*Clock*/
+  margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+  /* Up and Down/ left and right */
+  margin: 0 6em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.descricao__titulo {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 0.1em;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+  color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container__descricao {
+  padding: 2em;
 }
